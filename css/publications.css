@@ -1,0 +1,42 @@
+summary {
+    cursor: pointer;
+    outline: none;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+summary::marker {
+    font-size: 0.8em;
+}
+
+summary::-webkit-details-marker {
+    font-size: 0.8em;
+}
+
+div .conference {
+    font-size: larger;
+    color: darkblue;
+    margin-bottom: 3px;
+}
+
+div .authors {
+    font-size: large;
+}
+
+div .accessButtons {
+    margin: 10px 0px;
+}
+
+div .publicationContainer {
+    margin: 20px 0px;
+}
+
+span.badge.rounded-pill.text-bg-dark {
+    vertical-align: middle;
+    font-weight: normal;
+    font-size: medium;
+}
+
+span.badge.rounded-pill.text-bg-dark i.bi.bi-award-fill {
+    color: goldenrod;
+}

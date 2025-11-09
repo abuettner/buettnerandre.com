@@ -1,0 +1,43 @@
+i.icon-orcid {
+    background: url('../icons/ORCID-iD_icon_vector.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin-bottom: 3px;
+    vertical-align: middle;
+}
+
+i.icon-googlescholar {
+    background: url('../icons/Google_Scholar_logo.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin-bottom: 3px;
+    vertical-align: middle;
+}
+
+i.icon-researchgate {
+    background: url('../icons/ResearchGate_icon.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin-bottom: 3px;
+    vertical-align: middle;
+}
+
+p.shortbio-title {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: x-large;
+
+}
+
+p.shortbio {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: large;
+}

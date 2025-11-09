@@ -1,0 +1,12 @@
+body div.container-md {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+a.nav-link{
+    font-size: large;
+}
