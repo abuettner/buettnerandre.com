@@ -4,9 +4,13 @@ body div.container-md {
 }
 
 a {
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
 
-a.nav-link{
+a.nav-link {
     font-size: large;
+}
+
+a.btn {
+    margin-bottom: 5px;
 }
