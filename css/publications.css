@@ -40,3 +40,8 @@ span.badge.rounded-pill.text-bg-dark {
 span.badge.rounded-pill.text-bg-dark i.bi.bi-award-fill {
     color: goldenrod;
 }
+
+video {
+  width: 100%;
+  height: auto;
+}
