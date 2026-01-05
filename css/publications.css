@@ -13,7 +13,14 @@ summary::-webkit-details-marker {
     font-size: 0.8em;
 }
 
-div .conference {
+[data-bs-theme=dark] div .conference  {
+    font-size: larger;
+    color: #77F;
+    margin-bottom: 3px;
+}
+
+
+[data-bs-theme=light] div .conference  {
     font-size: larger;
     color: darkblue;
     margin-bottom: 3px;
@@ -31,7 +38,15 @@ div .publicationContainer {
     margin: 20px 0px;
 }
 
-span.badge.rounded-pill.text-bg-dark {
+[data-bs-theme=dark] span.badge.rounded-pill.text-bg-dark {
+    vertical-align: middle;
+    font-weight: normal;
+    font-size: medium;
+    background-color: #FFF !important;
+    color: #333 !important;
+}
+
+[data-bs-theme=light] span.badge.rounded-pill.text-bg-dark {
     vertical-align: middle;
     font-weight: normal;
     font-size: medium;

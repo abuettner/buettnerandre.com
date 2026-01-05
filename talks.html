@@ -12,11 +12,12 @@
     <link rel="stylesheet" href="css/third-party/bootstrap-icons.min.css">
     <script src="js/third-party/bootstrap.bundle.min.js"></script>
     <script src="js/third-party/jquery-3.7.1.min.js"></script>
+    <script src="js/third-party/theme.js"></script>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
     <main class="flex-grow-1">
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-md navbar-light">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,6 +32,18 @@
                         <a class="nav-link" href="talks.html">Talks</a>
                     </div>
                     <div class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Theme
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="nav-link" href="#" data-bs-theme-value="light"> <i
+                                        class="bi bi-brightness-high-fill"></i> Light</a>
+                                <a class="nav-link" href="#" data-bs-theme-value="dark"> <i class="bi bi-moon-fill"></i>
+                                    Dark</a>
+                            </ul>
+                        </li>
                         <a class="nav-link" href="imprint.html">Imprint</a>
                     </div>
                 </div>

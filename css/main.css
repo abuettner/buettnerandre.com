@@ -1,3 +1,9 @@
+[data-bs-theme=light] nav {
+    background-color: #FFF;
+}
+
+
+
 body div.container-md {
     margin-top: 30px;
     margin-bottom: 30px;
