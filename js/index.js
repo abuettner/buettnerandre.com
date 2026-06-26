@@ -46,4 +46,8 @@ function setNewsTeaser() {
 
 }
 
+function hideNews(){
+        $("div#news-teaser-container").hide();
+}
+
 setNewsTeaser();
