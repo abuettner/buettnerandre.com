@@ -40,8 +40,8 @@
                             <ul class="dropdown-menu">
                                 <a class="nav-link" href="#" data-bs-theme-value="light"> <i
                                         class="bi bi-brightness-high-fill"></i> Light</a>
-                                <a class="nav-link" href="#" data-bs-theme-value="dark"> <i
-                                        class="bi bi-moon-fill"></i> Dark</a>
+                                <a class="nav-link" href="#" data-bs-theme-value="dark"> <i class="bi bi-moon-fill"></i>
+                                    Dark</a>
                             </ul>
                         </li>
                         <a class="nav-link" href="imprint.html">Imprint</a>
@@ -50,6 +50,20 @@
             </div>
         </nav>
         <div class="container-md">
+            <div class="row" id="news-teaser-container" style="display: none;">
+                <div class="card">
+                    <div class="card-body">
+                        <div id="news-teaser-icon">
+                            <h1><i class="bi bi-info-circle-fill"></i> </h1>
+                        </div>
+                        <div id="news-teaser-content" style="display: inline-block; ">
+                            <span id="news-date"></span> <br/><b id="news-title"></b>
+                            <br/>
+                            <small><span id="news-subtitle"></span> </small>
+                        </div>
+                    </div>
+                </div>
+            </div> 
             <div class="row">
                 <div class="col-md-5 col-12">
                     <h1>Andre Büttner</h1>
@@ -113,13 +127,18 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> <br />
+            <hr /><br />
+
+
+
         </div>
     </main>
     <footer class="text-center p-3">
         <p>© 2026 Andre Büttner. All Rights Reserved.</p>
     </footer>
 
+    <script src="js/index.js"></script>
 </body>
 
 </html>

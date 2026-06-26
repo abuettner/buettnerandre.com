@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Open position at University of Oslo",
+        "subtitle": "Doctoral Research Fellow in Cybersecurity with Focus on Identity and Access Management",
+        "summary": "Our SEC research group at the Department of Informatics at the University of Oslo is hiring a new (fully-funded) Ph.D. candidate to research in cybersecurity with a focus on Identity and Access Management. Become part of an engaged team of researchers and support us in investigating security, usability, and privacy of modern authentication technologies.",
+        "date": "2026-06-26",
+        "lastupdated": "2026-06-26",
+        "status": "active",
+        "actions": [
+            {
+                "type:": "button",
+                "label": "Job Position",
+                "url": "https://www.jobbnorge.no/en/available-jobs/job/304720/phd-research-fellow-in-identity-and-access-management"
+            },
+            {
+                "type:": "button",
+                "label": "Research Group",
+                "url": "https://www.mn.uio.no/ifi/english/research/groups/sec/"
+            }
+        ]
+    }
+]

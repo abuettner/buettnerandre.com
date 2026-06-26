@@ -41,3 +41,19 @@ p.shortbio {
     font-family: Arial, Helvetica, sans-serif !important;
     font-size: large;
 }
+
+div#news-teaser-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+
+div #news-teaser-icon {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+div#news-teaser-content {
+    display: inline-block;
+}
