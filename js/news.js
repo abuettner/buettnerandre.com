@@ -46,7 +46,7 @@ function createListItem(item, id) {
       <p class="mb-1">${escapeHtml(item.summary)} </p><br/>
       <div class="d-flex gap-2">`;
     for (let i = 0; i < item.actions.length; i++) {
-        itemHTML += `<a href="${encodeURI(item.actions[i].url)}" class="btn btn-sm btn-primary mb-1 ${item.status == "inactive" ? "disabled" : ""}">${item.actions[i].label}</a> `;
+        itemHTML += `<a href="${item.status == "active" ? encodeURI(item.actions[i].url) : ""}" class="btn btn-sm btn-primary mb-1 ${item.status == "inactive" ? "disabled" : ""}">${item.actions[i].label}</a> `;
     }
     itemHTML += `</div>
     </div> 
